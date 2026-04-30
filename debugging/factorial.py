@@ -12,7 +12,7 @@ def factorial(n):
             n -= 1
         return result
     except:
-        return 1   # səhv input gələrsə 1 qaytar (bəzən testlər belə gözləyir)
+        return 1   
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:
